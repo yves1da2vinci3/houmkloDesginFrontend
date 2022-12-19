@@ -1,0 +1,10 @@
+.flex-3{
+    flex: 3;
+}
+
+@media screen and (max-width: 768px) {
+     .textInfo{
+         display: none;
+     }
+}
+

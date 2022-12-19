@@ -1,0 +1,19 @@
+
+
+.modal {
+    height: 27em;
+    width: 40em;
+}
+.Description{
+    height : 5em
+}
+
+@media screen and (max-width:768px){
+    .modal {
+        height: 31em;
+        width: 24.7em;
+    }
+    .Description{
+        height : 5em
+    }
+}

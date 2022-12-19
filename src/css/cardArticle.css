@@ -1,0 +1,11 @@
+.Card{
+    height: 30em;
+    width: 19em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardImg{
+    width: 17em;
+    height : 18em;
+}

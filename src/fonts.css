@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+
+/* Set default font-family */
+#editor-container {
+    font-family: "Aref Ruqaa";
+    font-size: 18px;
+    height: 375px;
+  }
+  
+  /* Set dropdown font-families */
+  #toolbar-container .ql-font span[data-label="Aref Ruqaa"]::before {
+    font-family: "Aref Ruqaa";
+  }
+  #toolbar-container .ql-font span[data-label="Mirza"]::before {
+    font-family: "Mirza";
+  }
+  #toolbar-container .ql-font span[data-label="Roboto"]::before {
+    font-family: "Roboto";
+  }
+  
+  /* Set content font-families */
+  .ql-font-mirza {
+    font-family: "Mirza";
+  }
+  .ql-font-roboto {
+    font-family: "Roboto";
+  }
+  /* We do not set Aref Ruqaa since it is the default font */

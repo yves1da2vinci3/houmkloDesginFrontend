@@ -1,0 +1,14 @@
+.form {
+    width: 32em;
+}
+
+.publish {
+    width: 23rem;
+    height: 20rem
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 22em;
+    }
+}
